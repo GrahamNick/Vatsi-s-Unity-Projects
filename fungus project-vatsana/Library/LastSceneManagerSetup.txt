@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Vatsana/_Scenes/Corridor.unity
+- path: Assets/Vatsana/_Scenes/EntranceScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

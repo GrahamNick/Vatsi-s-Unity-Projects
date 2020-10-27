@@ -386,7 +386,6 @@ GameObject:
   - component: {fileID: 704040504}
   - component: {fileID: 704040503}
   - component: {fileID: 704040502}
-  - component: {fileID: 704040501}
   - component: {fileID: 704040500}
   - component: {fileID: 704040499}
   - component: {fileID: 704040498}
@@ -414,7 +413,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 704040496}
+    gameObjectVal: {fileID: 1671717615}
   _tweenName:
     stringRef: {fileID: 0}
     stringVal: 
@@ -495,33 +494,6 @@ MonoBehaviour:
   - {fileID: 704040497}
   - {fileID: 704040499}
   suppressAllAutoSelections: 0
---- !u!114 &704040501
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704040496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: The world begins to spin as you begin to feel weightless...
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &704040502
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -617,7 +589,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 704040504}
   commandList:
-  - {fileID: 704040501}
   - {fileID: 704040502}
   - {fileID: 704040503}
   suppressAllAutoSelections: 0
@@ -634,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -112.5, y: 16}
+  scrollPos: {x: -301.5, y: -109}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -648,7 +619,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 704040505}
   selectedCommands:
-  - {fileID: 704040503}
+  - {fileID: 704040502}
   variables: []
   description: 
   stepPause: 0

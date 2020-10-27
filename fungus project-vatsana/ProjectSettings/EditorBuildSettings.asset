@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Vatsana/_Scenes/Door 4.unity
     guid: 1a1aff6093911334c922332537b23291
   - enabled: 1
+    path: Assets/Vatsana/_Scenes/Door 1 part 2.unity
+    guid: 8c80e337a6e5b0340abd928fea09b417
+  - enabled: 1
     path: Assets/Vatsana/_Scenes/NewPlanet.unity
     guid: d4be90688edd0704f8b9cdc90236d65d
   m_configObjects: {}

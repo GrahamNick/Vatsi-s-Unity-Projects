@@ -516,7 +516,6 @@ GameObject:
   - component: {fileID: 998913652}
   - component: {fileID: 998913649}
   - component: {fileID: 998913639}
-  - component: {fileID: 998913685}
   - component: {fileID: 998913673}
   - component: {fileID: 998913667}
   - component: {fileID: 998913644}
@@ -537,6 +536,7 @@ GameObject:
   - component: {fileID: 998913675}
   - component: {fileID: 998913674}
   - component: {fileID: 998913677}
+  - component: {fileID: 998913668}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998913638}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998913638}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
@@ -758,7 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 998913652}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1495464103}
+  clickableObject: {fileID: 1123929609}
   waitFrames: 1
 --- !u!114 &998913650
 MonoBehaviour:
@@ -767,7 +767,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 998913638}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd2f6be51b3d7490ba5633ee095d0391, type: 3}
   m_Name: 
@@ -1034,8 +1034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 502
-    y: 150
+    x: 505
+    y: 151
     width: 87
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1062,7 +1062,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 998913656}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1123929609}
+  clickableObject: {fileID: 1495464103}
   waitFrames: 1
 --- !u!114 &998913654
 MonoBehaviour:
@@ -1078,7 +1078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 874
+    x: 875
     y: 247
     width: 88
     height: 40
@@ -1128,8 +1128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 505
-    y: 256
+    x: 502
+    y: 266
     width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   eventHandler: {fileID: 998913653}
   commandList:
   - {fileID: 998913674}
-  - {fileID: 998913685}
+  - {fileID: 998913668}
   suppressAllAutoSelections: 0
 --- !u!114 &998913657
 MonoBehaviour:
@@ -1351,7 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -48, y: -86}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -1363,9 +1363,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 998913660}
+  - {fileID: 998913664}
   selectedCommands:
-  - {fileID: 998913658}
+  - {fileID: 998913643}
   variables:
   - {fileID: 998913639}
   - {fileID: 998913667}
@@ -1408,6 +1408,25 @@ MonoBehaviour:
   scope: 2
   key: ExitPass
   value: 0
+--- !u!114 &998913668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998913638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 88
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Door 1
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &998913672
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1422,7 +1441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 877
+    x: 879
     y: 145
     width: 88
     height: 40
@@ -1479,7 +1498,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1123929608}
+    gameObjectVal: {fileID: 1495464102}
   _tweenName:
     stringRef: {fileID: 0}
     stringVal: 
@@ -1547,7 +1566,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 1495464102}
+    gameObjectVal: {fileID: 1123929608}
   _tweenName:
     stringRef: {fileID: 0}
     stringVal: 
@@ -1599,35 +1618,6 @@ MonoBehaviour:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0.1, y: 0.1, z: 0.1}
   amountOLD: {x: 0, y: 0, z: 0}
---- !u!114 &998913685
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998913638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 35
-  indentLevel: 0
-  storyText: 'This door is blocked and won''t budge
-
-'
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!1 &1065579134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1681,7 +1671,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.494115
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1724,7 +1714,7 @@ GameObject:
   - component: {fileID: 1123929610}
   - component: {fileID: 1123929609}
   m_Layer: 0
-  m_Name: Door 1
+  m_Name: Door 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2053,7 +2043,7 @@ GameObject:
   - component: {fileID: 1495464104}
   - component: {fileID: 1495464103}
   m_Layer: 0
-  m_Name: Door 2
+  m_Name: Door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
